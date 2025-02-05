@@ -32,11 +32,11 @@ O site foi desenvolvido para se adaptar a diferentes resoluções de tela, garan
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/life-surf.git
+   git clone https://github.com/ViniJesus/LifeSurf.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
-   cd life-surf
+   cd LifeSurf
    ```
 3. Abra o arquivo `index.html` no navegador.
 
