@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poopins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -355,6 +355,7 @@ footer {
   background-color: var(--cor2);
   height: 20rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer p {
@@ -367,4 +368,36 @@ footer p {
 footer a {
   font-size: 2.4rem;
   color: var(--cor-texto);
+}
+
+@media (max-width: 768px) {
+  main h1 {
+    font-size: 3.2rem;
+    padding: 3rem 1rem;
+  }
+
+  footer > a p {
+    font-size: 2rem;
+  }
+
+  .contato-form button {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 412px) {
+  #preco {
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .preco-item {
+    flex: 1 1 100%;
+    min-width: auto;
+    margin: 1rem 0;
+  }
+
+  .preco-item img {
+    width: 100%;
+  }
 }
