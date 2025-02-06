@@ -230,8 +230,8 @@ main h1 {
   border-radius: 1rem;
 }
 
-.preco-item a {
-  max-width: 30rem;
+.preco-item button {
+  width: 50%;
   display: block;
   margin: 2rem auto;
   border: 0.4rem solid;
@@ -239,12 +239,11 @@ main h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 3.2rem;
-  padding: 1rem 0;
   text-align: center;
   transition: ease-in-out 0.2s;
 }
 
-.preco-item a:hover {
+.preco-item button:hover {
   transform: scale(1.1);
 }
 
@@ -370,6 +369,94 @@ footer a {
   color: var(--cor-texto);
 }
 
+/* Tela aluguel */
+#produto-info h1 {
+  text-align: center;
+}
+
+#produto-info a {
+  text-align: center;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  border: 0.5rem solid var(--cor3);
+  border-radius: 1rem;
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.container-title img {
+  width: 40rem;
+  border-radius: 1rem;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  align-items: center;
+  text-align: center;
+}
+
+.container-form h2 {
+  font-size: 4.8rem;
+  color: var(--cor3);
+}
+
+.container-form select {
+  width: 100%;
+  font-size: 2.56rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 4rem;
+  border: 4px solid var(--cor2);
+  background: transparent;
+  padding: 1.5rem 1rem;
+}
+
+.container-form a {
+  width: 50%;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 2.56rem;
+  border: 0.4rem solid var(--cor2);
+  background: transparent;
+  font-weight: bold;
+  color: var(--cor-texto2);
+  transition: ease-in-out 0.2s;
+
+  align-self: center;
+}
+
+.container-form a:hover {
+  transform: scale(1.1);
+}
+
+.container-form button:hover {
+  transform: scale(1.1);
+}
+
+.button-voltar {
+  max-width: 30rem;
+  display: block;
+  margin: 2rem auto;
+  border: 0.4rem solid;
+  color: var(--cor-texto2);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.button-voltar:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   main h1 {
     font-size: 3.2rem;
@@ -382,6 +469,10 @@ footer a {
 
   .contato-form button {
     max-width: 100%;
+  }
+
+  .container {
+    flex-wrap: wrap;
   }
 }
 
@@ -399,5 +490,9 @@ footer a {
 
   .preco-item img {
     width: 100%;
+  }
+
+  .preco-item a button {
+    font-size: 2rem;
   }
 }
