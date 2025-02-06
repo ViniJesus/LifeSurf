@@ -12,8 +12,9 @@ Life Surf é um site moderno e responsivo, criado para apaixonados pelo surf que
 
 - **HTML5** - Estrutura do site
 - **CSS3** - Estilização e responsividade
-- **Flexbox e Grid** - Layout dinâmico e responsivo
-- **Variáveis CSS** - Paleta de cores customizável
+- **Sass** - Organização do CSS para melhor manutenção
+- **JavaScript** - Para colocar funcionalidades dinâmicas na página
+- **Flexbox** - Layout dinâmico e responsivo
 
 ## 📌 Funcionalidades
 
