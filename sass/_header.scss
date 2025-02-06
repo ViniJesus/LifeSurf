@@ -1,0 +1,89 @@
+@import "variaveis";
+
+.menu-bg {
+  background-color: $cor2;
+  color: $cor-texto;
+}
+
+.menu {
+  max-width: $max-width-content;
+  margin: 0 auto;
+  padding: 15px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: $cor-texto;
+}
+
+.menu-logo {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+.menu-hamburguer {
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  color: $cor-texto;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menu-nav ul a {
+  font-size: 1.8rem;
+  display: block;
+  padding: 1rem;
+  transition: ease-in-out 0.2s;
+}
+
+.menu-nav ul a:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .menu-bg menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-hamburguer {
+    display: block;
+    margin-right: 2rem;
+  }
+
+  .menu-nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: $cor2;
+    width: 20rem;
+    height: 100%;
+    opacity: 0.9;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+
+  .menu-nav.active {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .menu-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+}

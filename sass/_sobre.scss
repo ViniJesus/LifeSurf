@@ -1,0 +1,32 @@
+#sobre {
+  border-top: 0.2rem solid $cor2;
+  border-bottom: 0.2rem solid $cor2;
+  max-width: $max-width-content;
+  margin: 0 auto;
+  padding: 6rem 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 30rem;
+  margin: 0 1rem;
+}
+
+.sobre-info h2 {
+  font-size: 4.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.sobre-info p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+  color: $cor10;
+}
+
+.sobre-imagens {
+  flex: 1 1 30rem;
+  margin: 0 1rem;
+}

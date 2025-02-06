@@ -1,0 +1,53 @@
+#contato {
+  max-width: $max-width-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contato-title h2 {
+  font-size: 4.8rem;
+  color: $cor3;
+}
+
+.contato-title p {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: $cor10;
+  margin-bottom: 1rem;
+}
+
+.contato-title p span:hover {
+  text-decoration: underline;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  margin: 2rem auto;
+}
+
+.contato-form input,
+textarea {
+  font-size: 1.6rem;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 4px solid $cor2;
+  background: transparent;
+}
+
+.contato-form button {
+  max-width: 50%;
+  margin: 0 auto 1rem auto;
+  padding: 1.5rem 1rem;
+  font-size: 2.56rem;
+  border: 0.4rem solid $cor2;
+  background: transparent;
+  font-weight: bold;
+  color: $cor-texto2;
+  transition: ease-in-out 0.2s;
+}
+
+.contato-form button:hover {
+  transform: scale(1.1);
+}

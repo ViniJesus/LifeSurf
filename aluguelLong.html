@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSurf - LongBoard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/iconWave.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="menu-bg-board">
+        <div class="menu-aluguel">
+            <div class="menu-logo">
+                <a href="index.html">Life Surf</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>LongBoard</h1>
+        <section class='container'>
+            <div class='container-title'>
+                <img src="img/prancha4.jpeg" alt="">
+            </div>
+            <form class='container-form'>
+                <h2>Tipo</h2>
+                <select id="select-material">
+                    <option value='classic'>Classic/Noserider</option>
+                    <option value='performance'>Performance</option>
+                    <option value='hybrid'>Hybrid/Mid-Length</option>
+                    <option value='glider'>Glider</option>
+                </select>
+                <p id="textoResultado"></p>
+                <h2>Material</h2>
+                <select id="select-tail">
+                    <option value='poliester'>Poliéster</option>
+                    <option value='epoxi'>Epóxi</option>
+                    <option value='madeiraPaulownia'>Madeira</option>
+                    <option value='carbono'>Carbono</option>
+                </select>
+                <p id="textoResultado2"></p>
+                <a>Alugar</a>
+            </form>
+        </section>
+
+        <button class="button-voltar" onclick="voltar()">Voltar</button>
+    </main>
+
+    <footer>
+        <p>Ter/Dom - 08:00 às 18:00</p>
+        <a href="tel:+5521999999999">+55 21 99999-9999</a>
+        <p>Av. Ali Perto, 330, Santos - São Paulo</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

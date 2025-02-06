@@ -1,0 +1,43 @@
+#produtos {
+  max-width: $max-width-content;
+  margin: 6rem auto;
+}
+
+#produtos h2 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  margin: 0 1rem 6rem 1rem;
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.produtos-item {
+  flex: 1 1 17.5rem;
+  margin: 1rem;
+}
+
+.produtos-item h3 {
+  font-size: 4.8rem;
+  color: var(--cor3);
+  padding: 6rem 2rem;
+}
+
+.yellow {
+  border-top: 0.8rem solid $cor5;
+}
+
+.yellow img {
+  height: 30rem;
+}
+
+.red {
+  border-top: 0.8rem solid $cor6;
+}
+
+.blue {
+  border-top: 0.8rem solid $cor7;
+}

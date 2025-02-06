@@ -11,16 +11,20 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/png" href="img/iconWave.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header class="menu-bg">
+
         <div class="menu">
             <div class="menu-logo">
-                <a href="#">Line Surf</a>
+                <a href="#">Life Surf</a>
             </div>
-            <nav>
+
+            <button id="menu-toggle" class="menu-hamburguer">&#9776;</button>
+
+            <nav id="menu-nav" class="menu-nav">
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
@@ -72,22 +76,19 @@
                 <h2>BodyBoard</h2>
                 <span><sup>R$</sup>50</span>
                 <img src="img/bodyBoard.jpg" alt="">
-                <a href="aluguel.html?produto=1"><button onclick="alugarProduto(1)"
-                        class="preco-item-button">Alugar</button></a>
+                <button onclick="alugarProduto(1)" class="preco-item-button">Alugar</button>
             </div>
             <div class="preco-item">
                 <h2>SkinBoard</h2>
                 <span><sup>R$</sup>80</span>
                 <img src="img/pranchaSkin.jpeg" alt="">
-                <a href="aluguel.html?produto=2"><button onclick="alugarProduto(2)"
-                        class="preco-item-button">Alugar</button></a>
+                <button onclick="alugarProduto(2)" class="preco-item-button">Alugar</button>
             </div>
             <div class="preco-item">
                 <h2>LongBoard</h2>
                 <span><sup>R$</sup>100</span>
                 <img src="img/prancha4.jpeg" alt="">
-                <a href="aluguel.html?produto=3"><button onclick="alugarProduto(3)"
-                        class="preco-item-button">Alugar</button> </a>
+                <button onclick="alugarProduto(3)" class="preco-item-button">Alugar</button>
             </div>
         </section>
 
