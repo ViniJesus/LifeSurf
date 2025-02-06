@@ -6,7 +6,7 @@ Life Surf é uma loja especializada no aluguel e venda de pranchas de surf, perm
 
 ## 🌟 Sobre o Projeto
 
-Life Surf é um site moderno e responsivo, criado para apaixonados pelo surf que desejam acompanhar produtos, preços e informações relevantes sobre o esporte. O design foi desenvolvido para garantir uma experiência fluida e envolvente em diferentes dispositivos, desde desktops até smartphones.
+Life Surf é um site ficticio moderno e responsivo, para botar em pratica meus conhecimentos adquiridos atráves dos meus estudos. O design foi desenvolvido para garantir uma experiência fluida e envolvente em diferentes dispositivos, desde desktops até smartphones.
 
 ## 🎨 Tecnologias Utilizadas
 
@@ -24,6 +24,8 @@ Life Surf é um site moderno e responsivo, criado para apaixonados pelo surf que
 ✔ Cards de produtos e preços estilizados
 ✔ Formulário de contato funcional
 ✔ Rodapé elegante
+✔ Tela de aluguel dos produtos
+✔ Informações dinâmicas com base na escolha de pranchas do usuario
 
 ## 📱 Responsividade
 
@@ -40,12 +42,6 @@ O site foi desenvolvido para se adaptar a diferentes resoluções de tela, garan
    cd LifeSurf
    ```
 3. Abra o arquivo `index.html` no navegador.
-
-## ✨ Melhorias Futuras
-
-🔹 Animações CSS para melhorar a interatividade
-🔹 Implementação de um backend para gerenciar os dados
-🔹 Melhorias na acessibilidade
 
 ## 📩 Contato
 
