@@ -1,6 +1,6 @@
 # 🌊 Life Surf
 
-![alt text](img/image.png)
+![image](https://github.com/user-attachments/assets/c15cf146-5daa-445b-b948-247a11c5f7f6)
 
 Life Surf é uma loja especializada no aluguel e venda de pranchas de surf, permitindo que você encontre o equipamento ideal para o seu estilo e nível de experiência. Caso se apaixone pela prancha que alugou, você pode adquiri-la e levá-la para casa. Além disso, oferecemos uma ampla variedade de acessórios para tornar sua experiência no surf ainda mais completa e inesquecível.
 
